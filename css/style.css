@@ -107,11 +107,11 @@
 			bottom: 0;
 			left: 0;
 			background: #1a1f2c;
-			background: rgba(186,0,124,0.65);
+			background: rgba(214, 69, 166, 0.65);
 			width: 100%;
 			padding: 1em;
 			font-weight: 300;
-			line-height: 0.5em;
+			line-height: 0.2em;
 			z-index: 2;
 		}
 		
@@ -574,8 +574,8 @@
 	#header
 	{
 		position: relative;
-		background: #d64760;
-		color: #fff;
+		background: #FFD7DE;
+		color: #AC004C;
 	}
 	
 		#header:before
