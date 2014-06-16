@@ -164,11 +164,10 @@ mail($to,$tema,$mensaje,$headers);
             	<div class="ubicacion">
                 
                 <h2>Ubicación:</h2>
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                <p>Chambers St 1254 New York City</p>
+                <p>Caracas - Venezuela</p>
+                <p>(0414)2849269</p>
                 <p>USA ZIP 44511</p>
-                <p>(33) 1234 5677, (33) 12459876</p>
-                <p><a href="#">email@server.com</a></p>
+                <p><a href="#">info@caimeenicole.com</a></p>                
                 </div>
             </div>
 		<!--<iframe src="contacto.php" frameborder="0" onMouseOut="dontShowContacto();"></iframe>-->
@@ -177,8 +176,8 @@ mail($to,$tema,$mensaje,$headers);
 		
 			<div id="footer">
 				<div class="left">
-					<p>This is <strong>Parallelism</strong>, a responsive portfolio site template by <a href="http://html5up.net/">HTML5 UP</a>. free for personal<br />
-					and commercial use under the <a href="http://html5up.net/license/">CCA 3.0</a>.</p>
+					<p>Lazos y cintillos hechos <strong>a la medida</strong>a gusto del cliente<br />
+					Para las chiquitas de la casa</p>
 				</div>
 				<div class="right">
                     <h2>Contacto</h2>
