@@ -102,26 +102,26 @@
  
  if(!empty($_POST['nombre']) AND !empty($_POST['email'])){
  
-$to ="akimxtreme.dj@gmail.com";
+$to ="info@caimeenicole.com";
 $headers = "Content-Type: text/html; charset=iso-8859-1\n";
 $headers .= "From:".$_POST['nombre']."\r\n";           
 $tema="Contacto desde el Sitio Web";
 $mensaje="
 <table border='0' cellspacing='2' cellpadding='2'>
   <tr>
-    <td width='20%' align='center' bgcolor='#FFFFCC'><strong>Nombre:</strong></td>
+    <td width='20%' align='center' bgcolor='#CCCCCC'><strong>Nombre:</strong></td>
     <td width='80%' align='left'>$_POST[nombre]</td>
   </tr>
   <tr>
-    <td align='center' bgcolor='#FFFFCC'><strong>Correo Electrónico:</strong></td>
+    <td align='center' bgcolor='#CCCCCC'><strong>Correo Electrónico:</strong></td>
     <td align='left'>$_POST[email]</td>
   </tr>
    <tr>
-    <td width='20%' align='center' bgcolor='#FFFFCC'><strong>Asunto</strong></td>
+    <td width='20%' align='center' bgcolor='#CCCCCC'><strong>Asunto</strong></td>
     <td width='80%' align='left'>Comentario</td>
   </tr>
   <tr>
-    <td align='center' bgcolor='#FFFFCC'><strong>Comentario:</strong></td>
+    <td align='center' bgcolor='#CCCCCC'><strong>Mensaje:</strong></td>
     <td align='left'>$_POST[comentario]</td>
   </tr>
 </table>
@@ -154,7 +154,7 @@ mail($to,$tema,$mensaje,$headers);
                             <input type="email" name="email" placeholder="Indique..." required maxlength="30">
                             <label>Comentario:</label>
                             <textarea name="comentario" placeholder="Indique..." required></textarea>
-                            <button type="submit">Enviar Comentario</button>
+                            <button type="submit">Enviar Mensaje</button>
                         </fieldset>
                     </form>
                     
@@ -165,8 +165,7 @@ mail($to,$tema,$mensaje,$headers);
                 
                 <h2>Ubicación:</h2>
                 <p>Caracas - Venezuela</p>
-                <p>(0414)2849269</p>
-                <p>USA ZIP 44511</p>
+                <p>(0414)2849269</p>                
                 <p><a href="#">info@caimeenicole.com</a></p>                
                 </div>
             </div>
@@ -176,7 +175,7 @@ mail($to,$tema,$mensaje,$headers);
 		
 			<div id="footer">
 				<div class="left">
-					<p>Lazos y cintillos hechos <strong>a la medida</strong>a gusto del cliente<br />
+					<p>Lazos y cintillos hechos <strong>a la medida</strong> a gusto del cliente<br />
 					Para las chiquitas de la casa</p>
 				</div>
 				<div class="right">

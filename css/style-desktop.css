@@ -268,8 +268,8 @@
 /**************************************************************************************/
 #contact {
 	float:left;
-	width: 80%; 
-	margin:10%;
+	width: 940px; 
+	margin:5% 16%;
 	visibility:hidden;
 	background:#FFF;
 	z-index:9999;
