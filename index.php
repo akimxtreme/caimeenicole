@@ -167,6 +167,7 @@ mail($to,$tema,$mensaje,$headers);
                 <p>Caracas - Venezuela</p>
                 <p>(0414)2849269</p>                
                 <p><a href="#">info@caimeenicole.com</a></p>                
+		
                 </div>
             </div>
 		<!--<iframe src="contacto.php" frameborder="0" onMouseOut="dontShowContacto();"></iframe>-->

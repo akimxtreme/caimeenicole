@@ -267,20 +267,20 @@
 
 /**************************************************************************************/
 #contact {
-	float:left;
+	float:none;
 	width: 940px; 
-	margin:5% 16%;
+	margin:12% auto 10% auto;
 	visibility:hidden;
 	background:#FFF;
 	z-index:9999;
-	position:absolute;
+	position:relative;
 	opacity:0.9;
 	
 
 }
 #contact div {
 	float:left;
-	background:none;	
+	background:#FFF;	
 	width: 99%; 
 	padding:0.5%;
 	
@@ -288,13 +288,15 @@
 #contact div div {
 	float:left;
 	width:49%;
-	margin:0% 0.5%;
+	margin:1% 0.5%;
 	}
 #contact form {
 	float:left;
 	background:#D3465F;
 	width:100%;
-	padding: 2%;
+	margin: 1% 0%;
+	min-height: 330px; /* + 20 + 299*/ 
+	padding: 0% 2% 0% 2%;
 	
 	}
 #contact form .cerrar {
@@ -315,13 +317,15 @@
 	position:inherit;
 	z-index:inherit;	
 	width: 49%; 
+	margin:2% 0.5% 0% 0.5%;
 	padding:0% 0 0.5% 0.5%;
 	
 	}
 #contact div div.cerrar_desktop button {
 	float:right;
-	font-size:1.2em;	
-	padding:1%;
+	font-size:15px;	
+	text-align: center;
+	padding:5px;
 	width:6%;
 	text-transform:capitalize;
 	font-weight:bold;
@@ -395,9 +399,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb83fa', end
 	float:left;
 	background:#B7357B;
 	width:49%;
-	margin:0% 0.5% 0% 0.5%;
-	padding: 1% 1% 0 1%;
-        min-height: 300px;
+	margin:0 0.5%;
+	padding: 0 1% 0 1%;
+        min-height: 294px; /* + 20 + 299*/ 
 	}
 #contact div div.ubicacion h2 {
 	color:#FFF;
