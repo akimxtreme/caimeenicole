@@ -36,7 +36,7 @@
 					<!-- Header Item -->
 					
 						<div id="header" class="item" data-width="400">
-							<img src="images/logo.svg" alt="Creaciones Aimee Nicole">
+							<img src="images/logo.svg" alt="Creaciones Aimee Nicole" width="100%">
 							<!--<p>Lazos y cintillos a la medida<br />
 							a gusto del cliente</p>-->
 						</div>
@@ -141,7 +141,7 @@ mail($to,$tema,$mensaje,$headers);
 		<div id="contact" >
         	<div>
             	<!-- Formulario de Contacto -->
-            	<div>
+            	<div class="formulario">
             		
                     <form action="index.php" method="post">
                     	<button onclick="dontShowContacto();" class="cerrar" type="button">X</button>
@@ -152,7 +152,7 @@ mail($to,$tema,$mensaje,$headers);
                             <input type="text" name="nombre" placeholder="Indique..." required maxlength="30">
                             <label>Email:</label>
                             <input type="email" name="email" placeholder="Indique..." required maxlength="30">
-                            <label>Comentario:</label>
+                            <label>Mensaje:</label>
                             <textarea name="comentario" placeholder="Indique..." required></textarea>
                             <button type="submit">Enviar Mensaje</button>
                         </fieldset>
